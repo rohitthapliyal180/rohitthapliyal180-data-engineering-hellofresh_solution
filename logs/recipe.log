@@ -1,0 +1,9 @@
+2021-09-05 22:59:10,510-INFO: Spark session started
+2021-09-05 22:59:22,626-INFO: Reading recipe file is successful
+2021-09-05 22:59:23,382-INFO: function preprocessing_ingredients completed
+2021-09-05 22:59:24,130-INFO: function preprocessing_PT_to_minute completed
+2021-09-05 22:59:24,377-INFO: function preprocessing_PT_to_minute completed
+2021-09-05 22:59:24,457-INFO: function cooking_time completed
+2021-09-05 22:59:31,715-INFO: function avg_cooking_time completed
+2021-09-05 22:59:35,701-INFO: function write_to_csv completed
+2021-09-05 22:59:35,704-INFO: Spark session started
