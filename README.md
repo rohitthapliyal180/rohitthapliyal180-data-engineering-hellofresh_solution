@@ -37,7 +37,7 @@ The minumum configuration of machine is 2 Core with 8 GB RAM is required.
 3. Documentaion of the project.
 4. README.md and Config file.
 
-# Limitations and improvements:
+# Limitations and Improvements:
 1. Unable to create Hive external tables over the recipe partition files due to system limitation. Working machine was not personal and denied permission to write over HDFS (tmp/hive).
 2. Unable to share the executable file of the solution as the installed FireEye antivirus quarantine the generated .exe file and blocked to access. However one can easily generate the .exe file by running "pyinstaller main_hellofresh.py --onefile" on the pycharm terminal and the .exe file can be found inside the dist/ folder. Make sure to run "pip install pyinstaller" before "pyinstaller main_hellofresh.py --onefile" to get the pyinstaller library installed.
 3. Didn't get enough time to write unit test function and CI/CD pipeline with ongoing projects. However function output (unit_test/unit_test_files) were generated and can be used to do unit testing by comparing with actual outputs from running functions.
