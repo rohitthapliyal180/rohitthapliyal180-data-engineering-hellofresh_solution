@@ -14,7 +14,7 @@ The minumum configuration of machine is 2 Core with 8 GB RAM is required.
 5. PyCharm IDE
 6. Git bash
 
-# Project Structure
+# Project Structure and folders
 
 1. src/data_engineering - Contains the required code
 
@@ -22,6 +22,22 @@ The minumum configuration of machine is 2 Core with 8 GB RAM is required.
    
    1.2 read_json.py - function to read the json file.
    
-   1.3 preprocessing.py - 
+   1.3 preprocessing.py - finctions to filter records and time conversions
    
-   1.4 calulation.py - functions to filter and calulate the avg cooking time.
+   1.4 calculation.py - functions to filter and calculate the avg cooking time.
+
+2. Input - Contains input json files
+3. output - Contains final output file.
+4. logs - log file generated at runtime.
+5. unit_test/unit_test_files - exported datafames to csv files from different functions to do unit testing.
+
+# Deliverables:
+1. Output file in CSV format.
+2. Project upload over Git with pull request.
+3. Documentaion of the project.
+4. executable python export.
+
+# Limitations and improvements:
+1. Unable to create Hive external tables over the recipe partition files due to system limitation. Working machine was not personal and denied permission to write over HDFS (tmp/hive).
+2. Didn't get enough time to write unit test function and CI/CD pipeline. However function output (unit_test/unit_test_files) were generated and can be used to write unit testing.
+
