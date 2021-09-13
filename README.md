@@ -1,9 +1,9 @@
-# HelloFresh Data Engineering Test Solution
+# HelloFresh Data Engineering Test Solution:
 
 Thanks HelloFresh for giving me the Data Engineering Test. This Test Solution is able to answer the Task1 and Task2, which basically reads the JSON file from the directory to a dataframe
 then filter out the ingredient (beef) to calculate the average time taken by the recipe w.r.t there level of difficulty.
 
-# Installation and setup
+# Installation and setup:
 
 Please follow the solution documentation shared to understand the details steps of installation. We need below softwares installed on our machine to run the solution.
 The minumum configuration of machine is 2 Core with 8 GB RAM is required.
@@ -14,7 +14,7 @@ The minumum configuration of machine is 2 Core with 8 GB RAM is required.
 5. PyCharm IDE
 6. Git bash
 
-# Project Structure and folders
+# Project Structure and folders:
 
 1. src/data_engineering - Contains the required code
 
